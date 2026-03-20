@@ -9,6 +9,8 @@ os
 sys
 datetime
 pyside6
+pytz
+geocoder
 
 if you need to compile it to .exe file:
 Pyinstaller
@@ -16,3 +18,5 @@ Pyinstaller
 Patch 2.1:
 Bug Fixed
 For the countdown timer, 1 extra second bug is fixed
+
+Patch 3.0: New Function - World Clock
