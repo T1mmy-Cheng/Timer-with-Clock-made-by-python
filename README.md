@@ -1,22 +1,18 @@
 # Timer-with-Clock-made-by-python
 This is a timer with clock made by python.
 The first version is made with 'Thinker' module. 
-The followed update is made with 'Pyside6' module. 
+The following update is made with 'Pyside6' module. 
 
 Python Version: 3.13
-Module needed⇩
-os
-sys
-datetime
-pyside6
-pytz
-geocoder
+Module needed-->pyside6, pytz, geocoder, geopy, TimezoneFinder
 
-if you need to compile it to .exe file:
+If you don't have these modules, copy this to your terminal: pip install pyside6 pytz geocoder geopy TimezoneFinder
+
+If you need to compile it into .exe file:
 Pyinstaller
 
-Patch 2.1:
-Bug Fixed
-For the countdown timer, 1 extra second bug is fixed
+Patch 2.1:Bug Fixed - countdown timer, 1 extra second bug is fixed
 
 Patch 3.0: New Function - World Clock
+Patch 3.1: World Clock - Default Location is your city
+Bug Fixed - World Clock, now the back button will go back to your previous page
