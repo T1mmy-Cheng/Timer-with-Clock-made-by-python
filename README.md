@@ -4,13 +4,14 @@ The first version is made with 'Thinker' module.
 The following update is made with 'Pyside6' module. 
 
 Python Version: 3.13
+
+---
 #Module needed-->
 pyside6, pytz, geocoder, geopy, TimezoneFinder
 
 If you don't have these modules, copy this to your terminal: pip install pyside6 pytz geocoder geopy TimezoneFinder
 
 ---
-
 If you need to compile it into .exe file:
 1. Open Terminal or PowerShell
 2. cd "your/file/path/"
