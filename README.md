@@ -36,3 +36,7 @@ Patch 3.0: New Function - World Clock
 
 Patch 3.1: World Clock - Default Location is your city
 Bug Fixed - World Clock, now the back button will go back to your previous page
+
+Sample
+---
+[image](image.png)
