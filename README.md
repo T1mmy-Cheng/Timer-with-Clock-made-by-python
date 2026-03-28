@@ -22,9 +22,7 @@ pip install pyside6 pytz geocoder geopy TimezoneFinder
 
 Compile to .exe file
 ---
-Make sure your already install pyinstaller
-
-If not, paste it to the shell:
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyinstaller
 ```bash
 pip install pyinstaller
 ```
