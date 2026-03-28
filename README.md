@@ -9,15 +9,24 @@ Module
 ---
 Module needed-->pyside6, pytz, geocoder, geopy, TimezoneFinder
 
-If you don't have these modules, copy this to your terminal: pip install pyside6 pytz geocoder geopy TimezoneFinder
+If you don't have these modules, copy this to your terminal: 
+```bash
+pip install pyside6 pytz geocoder geopy TimezoneFinder
+```
 
 
 Compile to .exe file
 ---
 If you need to compile it into .exe file:
 1. Open Terminal or PowerShell
-2. cd "your/file/path/"
-3. pyinstaller --noconsole --onefile --windowed --clean --icon=app_icon.ico Timer.py --version-file=dis.txt --add-data "setting.png;." --add-data "stopwatch.png;." --add-data "3158183.png;."
+2. Copy these to your shell
+
+  ```bash
+   cd "your/file/path/"
+   ```
+3. ```bash
+   pyinstaller --noconsole --onefile --windowed --clean --icon=app_icon.ico Timer.py --version-file=dis.txt --add-data "setting.png;." --add-data "stopwatch.png;." --add-data "3158183.png;."
+   ```
 
 Patch
 ---
