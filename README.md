@@ -39,4 +39,4 @@ Bug Fixed - World Clock, now the back button will go back to your previous page
 
 Sample
 ---
-[image](image.png)
+[Main page](image.png)
