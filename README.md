@@ -37,7 +37,7 @@ To create a standalone Windows executable (`.exe`) with the custom icon and vers
    ```
 2. Navigate the source files:
    ```powershell
-   cd "your/file/path/"
+   cd "your\file\path\"
    ```
 3. Compiling to a standalone Windows executable (`.exe`) file:
    ```powershell
