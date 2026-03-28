@@ -8,11 +8,16 @@ Python Version: 3.13
 pyside6, pytz, geocoder, geopy, TimezoneFinder
 
 If you don't have these modules, copy this to your terminal: pip install pyside6 pytz geocoder geopy TimezoneFinder
+
 ---
+
 If you need to compile it into .exe file:
 Pyinstaller
+
 ---
+
 ##Patch
+
 Patch 2.1:Bug Fixed - countdown timer, 1 extra second bug is fixed
 
 Patch 3.0: New Function - World Clock
