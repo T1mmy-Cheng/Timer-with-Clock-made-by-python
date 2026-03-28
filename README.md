@@ -51,15 +51,7 @@ To create a standalone Windows executable (`.exe`) with the custom icon and vers
 
 © 2025-2026 Timmy Cheng. All rights reserved.
 
-## Patch
 
-Patch 2.1:Bug Fixed - countdown timer, 1 extra second bug is fixed
-
-Patch 3.0: New Function - World Clock
-
-Patch 3.1: World Clock - Default Location is your city
-Bug Fixed - World Clock, now the back button will go back to your previous page
-
-##Sample
+## Sample
 
 [Main page](image.png)
