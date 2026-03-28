@@ -17,6 +17,13 @@ pip install pyside6 pytz geocoder geopy TimezoneFinder
 
 Compile to .exe file
 ---
+Make sure your already install pyinstaller
+
+If not, paste it to the shell:
+```bash
+pip install pyinstaller
+```
+
 If you need to compile it into .exe file:
 1. Open Terminal or PowerShell
 2. Navigate to your file path
