@@ -3,13 +3,18 @@ This is a timer with clock made by python.
 The first version is made with 'Thinker' module. 
 The following update is made with 'Pyside6' module. 
 
-Python Version: 3.13
+-Python Version: 3.13
 
 Module
 ---
-Module needed-->pyside6, pytz, geocoder, geopy, TimezoneFinder
+**Module needed:**
+- pyside6
+- pytz
+- geocoder
+- geopy
+- TimezoneFinder
 
-If you don't have these modules, copy this to your terminal: 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all needed modules. 
 ```bash
 pip install pyside6 pytz geocoder geopy TimezoneFinder
 ```
