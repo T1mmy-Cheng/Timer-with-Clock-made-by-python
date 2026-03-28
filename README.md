@@ -12,7 +12,9 @@ If you don't have these modules, copy this to your terminal: pip install pyside6
 ---
 
 If you need to compile it into .exe file:
-Pyinstaller
+1. Open Terminal or PowerShell
+2. cd "your/file/path/"
+3. pyinstaller --noconsole --onefile --windowed --clean --icon=app_icon.ico Timer.py --version-file=dis.txt --add-data "setting.png;." --add-data "stopwatch.png;." --add-data "3158183.png;."
 
 ---
 
