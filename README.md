@@ -31,16 +31,12 @@ A feature-rich desktop application built with Python and PySide6, featuring a tr
 
 To create a standalone Windows executable (`.exe`) with the custom icon and version metadata:
 
-```powershell
-pyinstaller --noconsole --onefile --windowed --clean `
---icon="app_icon.ico" `
---version-file="dis.txt" `
---add-data "app_icon.ico;." `
---add-data "setting.png;." `
---add-data "stopwatch.png;." `
---add-data "3158183.png;." `
-Timer.py
-```
+1. ```powershell
+   cd "your/file/path/"
+   ```
+2. ```powershell
+   pyinstaller --clean Timer.spec
+   ```
 
 ## 📝 File Information
 
