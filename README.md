@@ -20,12 +20,12 @@ Compile to .exe file
 If you need to compile it into .exe file:
 1. Open Terminal or PowerShell
 2. Navigate to your file path
-  ```bash
+   ```bash
    cd "your/file/path/"
    ```
 3. Compile it
    ```bash
-   pyinstaller --noconsole --onefile --windowed --clean --icon=app_icon.ico Timer.py --version-file=dis.txt --add-data "setting.png;." --add-data "stopwatch.png;." --add-data "3158183.png;."
+   pyinstaller --clean Timer.spec
    ```
 
 Patch
